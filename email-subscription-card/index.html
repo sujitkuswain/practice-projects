@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Mail Subscription</title>
+</head>
+
+<body>
+  <!-- background constiner -->
+  <div class="flex items-center justify-center h-screen bg-zinc-400">
+    <!-- card container -->
+    <div class="bg-zinc-700 p-2 rounded-2xl mx-6">
+      <!-- flex container -->
+      <div class="flex flex-col md:flex-row rounded-l-xl">
+        <!-- image -->
+        <img src="images/image.jpg" alt="imgage" class="object-fit rounded-xl h-80 md:h-64 md:rounded-r-none
+        hover:scale-105 transition duration-200">
+        <!-- other contents -->
+        <div class="p-6 md:p-12">
+          <h2 class="text-xl font-serif font-medium text-center text-white md:text-left">Get diet and fitness tips in
+            your inbox</h2>
+          <p class="max-w-xs text-xs text-white my-4 leading-5 tracking-wide text-center md:text-left">Eat better and
+            exercise better. </p>
+          <div class="flex flex-col md:flex-row mt-5 space-y-4 md:space-x-3 md:space-y-0">
+            <input type="text"
+              class="p-2 px-4 text-center text-white border rounded-md border-zinc-500 bg-zinc-700 placeholder:text-xs placeholder:text-center placeholder:md:text-left md:text-left focus:outline-none"
+              placeholder="Enter email address">
+            <button
+              class="px-5 py-3 bg-lime-500 text-xs text-zinc-800 rounded-md hover:text-white hover:bg-lime-700 transition duration-200">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
